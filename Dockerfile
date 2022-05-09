@@ -10,8 +10,9 @@ WORKDIR /usr/src/app
 
 COPY package.json package-lock.json ./
 RUN npm ci --production && \
-    npm cache clean --force
-COPY . .
+    npm cache clean --force \
+COPY index.js .
+COPY lib/ lib/
 
 USER nobody
 
