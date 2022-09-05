@@ -30,7 +30,7 @@
   "dependencies": {
     "@conventional-commits/parser": "^0.4.1",
     "conventional-commit-types": "^3.0.0",
-    "probot": "^12.2.2"
+    "probot": "^12.2.7"
   },
   "devDependencies": {
     "jest": "^27.5.1",
