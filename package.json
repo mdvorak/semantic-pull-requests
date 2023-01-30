@@ -35,7 +35,7 @@
   "devDependencies": {
     "jest": "^27.5.1",
     "nock": "^13.0.5",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^20.1.0",
     "smee-client": "^1.2.2",
     "standard": "^16.0.4"
   },
